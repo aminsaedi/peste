@@ -26,9 +26,9 @@ export default function AppCard({ record }: { record: any }) {
       <Card style={{ height: "100%" }}>
         <CardMedia>
           <Image
-            src={`https://picsum.photos/seed/${record.id}/200/300`}
+            src={`/images/${record.id}.jpg`}
             width={300}
-            height={300}
+            height={400}
             alt="random image"
             style={{ width: "100%" }}
           />
